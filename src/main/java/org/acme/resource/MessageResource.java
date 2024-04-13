@@ -22,7 +22,6 @@ public class MessageResource {
         messageProducer.send("Hello! Im from message producer!!");
         return "Message Sent";
     }
-
     @POST
     @Path("/send")
     @Produces(MediaType.TEXT_PLAIN)
