@@ -210,14 +210,12 @@ package org.example;
 
 import javax.enterprise.context.ApplicationScoped;
 import org.eclipse.microprofile.reactive.messaging.Incoming;
-import io.smallrye.reactive.messaging.annotations.Blocking;
 import org.eclipse.microprofile.reactive.messaging.Message;
 
 @ApplicationScoped
 public class MessageConsumer {
 
     @Incoming("messages-in")
-    @Blocking
     public CompletionStage<Void> receive(Message<String> message) {
         try {
             // Processa a mensagem aqui
