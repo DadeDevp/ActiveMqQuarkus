@@ -115,7 +115,7 @@ mp.messaging.incoming.messages-in.address=minhaqueue
 #mp.messaging.incoming.messages-in.host=localhost
 #mp.messaging.incoming.messages-in.port=61616
 #mp.messaging.incoming.messages-in.username=admin
-#mp.messaging.incoming.messages-in.password=admineue
+#mp.messaging.incoming.messages-in.password=admin
 ```
 
 - **connection-url**: URL de conexão com as credenciais e endereço do Artemis.
